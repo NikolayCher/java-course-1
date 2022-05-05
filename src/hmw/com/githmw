@@ -1,0 +1,19 @@
+git init
+git config --global user.name 'kolyas'
+git config --global user.email 'admin@hmw.com'
+git add src/*
+git add src/hmw/com/.gitignore
+git add hmw5.iml
+git commit -m "second commit"
+git branch blog
+git checkout blog
+git status
+On branch blog
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   src/blog/index.html
+        new file:   src/blog/index.js
+git commit -m "Finishing with blog"
+git checkout master
+Switched to branch 'master'
+M       src/hmw/com/githmw
