@@ -17,3 +17,4 @@ git commit -m "Finishing with blog"
 git checkout master
 Switched to branch 'master'
 M       src/hmw/com/githmw
+git add src/hmw/com/githmw
